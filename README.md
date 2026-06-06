@@ -1,157 +1,198 @@
-# Dlegent - Resort Management and Booking System
+# 🏝️ Dlegent – Resort Management & Booking System
 
-## Project Overview
+## 📖 Project Overview
 
-Dlegent is a web-based resort management and booking system designed to support online resort reservations and accommodation management. The system provides role-based functionalities for Customers, Partners (Accommodation Providers), and Administrators.
+Dlegent is a web-based resort management and booking system developed to streamline accommodation reservations and resort operations. The platform supports three primary user roles: Customers, Partners (Accommodation Providers), and Administrators.
 
-The project aims to improve booking efficiency, simplify accommodation management, and enhance customer experience through a centralized online platform.
-
----
-
-## Project Objectives
-
-- Develop a secure and user-friendly resort booking website.
-- Provide comprehensive functionalities for Customers, Partners, and Administrators.
-- Implement a clear role-based access control mechanism.
-- Support online payments through ZaloPay integration.
-- Implement a reward points and voucher redemption system.
-- Apply software analysis, design, and development knowledge in a real-world project.
+The project was developed as part of a System Analysis & Design course, applying Business Analysis techniques to gather requirements, model business processes, design system functionalities, and develop supporting documentation.
 
 ---
 
-## Stakeholders
+## 🎯 Project Objectives
+
+* Develop a secure and user-friendly resort booking platform.
+* Support role-based functionalities for Customers, Partners, and Administrators.
+* Implement role-based access control (RBAC).
+* Integrate online payment via ZaloPay.
+* Support reward points and voucher redemption.
+* Apply Business Analysis and System Analysis & Design practices in a real-world project.
+
+---
+
+## 👥 Stakeholders
 
 ### Customer
-Customers can:
 
-- Register and log into the system.
-- Search for resorts and room packages.
-- Add booking packages to cart.
-- Make online payments.
-- View booking history.
-- Cancel reservations (within allowed conditions).
-- Submit reviews and ratings.
-- Redeem reward points for discount vouchers.
+* Register and log in to the system.
+* Search resorts and room packages.
+* Manage cart and reservations.
+* Make online payments.
+* View booking history.
+* Submit reviews and ratings.
+* Redeem reward points.
 
 ### Partner
-Partners can:
 
-- Manage resort information.
-- Manage room types and room availability.
-- Manage booking packages.
-- Track reservations and revenue.
-- Handle booking requests.
-- Submit withdrawal requests.
+* Manage resort information and room inventory.
+* Manage booking packages.
+* Track bookings and revenue.
+* Process reservation requests.
+* Submit withdrawal requests.
 
 ### Administrator
-Administrators can:
 
-- Approve or reject partner accounts.
-- Manage user accounts.
-- Manage promotional vouchers.
-- Review and approve withdrawal requests.
-- Monitor overall system operations.
-
----
-
-## Business Processes
-
-### Resort Booking Process
-Customer searches for resorts, selects suitable packages, adds them to cart, confirms booking, and completes payment.
-
-### Payment Process
-The system supports online payment through ZaloPay for secure and convenient transactions.
-
-### Revenue Management Process
-Partners can monitor revenue by day, month, or specific resort.
-
-### Service Review Process
-Customers can rate and review services after using them. Reward points are granted based on reviews.
-
-### Withdrawal Process
-Partners can request withdrawals, which require administrator approval.
-
-### Authorization Process
-Role-based permissions ensure that each user can only access authorized functions.
+* Manage users and partners.
+* Approve partner registrations.
+* Manage promotional vouchers.
+* Approve withdrawal requests.
+* Monitor overall system activities.
 
 ---
 
-## Functional Modules
+## 🔄 Core Business Processes
+
+* Resort Booking Management
+* Online Payment Processing
+* Revenue Management
+* Review & Rating Management
+* Withdrawal Request Management
+* Role-Based Authorization
+
+---
+
+## ⚙️ Functional Modules
 
 ### Customer Module
-- Authentication
-- Resort Search
-- Cart Management
-- Reservation Management
-- Payment
-- Review & Rating
-- Reward Point Management
+
+* Authentication
+* Resort Search
+* Cart Management
+* Reservation Management
+* Payment Processing
+* Review & Rating
+* Reward Point Management
 
 ### Partner Module
-- Resort Management
-- Room Management
-- Package Management
-- Revenue Dashboard
-- Withdrawal Request Management
+
+* Resort Management
+* Room Management
+* Package Management
+* Revenue Dashboard
+* Withdrawal Management
 
 ### Administrator Module
-- User Management
-- Partner Approval
-- Voucher Management
-- Withdrawal Approval
-- System Monitoring
+
+* User Management
+* Partner Approval
+* Voucher Management
+* Withdrawal Approval
+* System Monitoring
 
 ---
 
-## Technologies
+## 🎯 My Contributions
+
+As a Business Analyst team member, I was responsible for:
+
+- Writing detailed Use Case Specifications for key system features.
+- Modeling business processes using BPMN diagrams.
+- Creating UML diagrams, including:
+  - Use Case Diagrams
+  - Activity Diagrams
+  - Sequence Diagrams
+- Designing the database structure through ERD and Data Dictionary.
+- Defining functional requirements, business rules, and system workflows.
+- Participating in UI analysis and requirement validation.
+- Supporting the development team throughout the System Analysis & Design process.
+
+---
+
+## 📑 Business Analysis Deliverables
+
+### Requirements Engineering
+
+* Interview Plan
+* Interview Report
+* Functional Requirements
+* Non-functional Requirements
+
+### Analysis & Design Artifacts
+
+* Use Case Specifications
+* BPMN Diagrams
+* Use Case Diagrams
+* Activity Diagrams
+* Sequence Diagrams
+* Entity Relationship Diagram (ERD)
+* Data Dictionary
+* User Interface Specifications
+
+---
+
+## 📊 Project Outputs
+
+* Requirement Specification Documents
+* Interview Documentation
+* BPMN Models
+* UML Diagrams
+* ERD & Data Dictionary
+* UI Specifications
+* Working Web-Based Prototype
+
+---
+
+## 🧠 Business Analysis Techniques Applied
+
+* Stakeholder Analysis
+* Requirement Elicitation
+* Interview Technique
+* Requirement Analysis
+* Functional Decomposition
+* Business Process Modeling (BPMN)
+* Use Case Analysis
+* Data Modeling
+* Requirement Documentation
+
+---
+
+## 🛠️ Technologies & Tools
 
 ### Frontend
 - HTML
 - CSS
 - JavaScript
 
-### Database
-- Oracle Database
+### Backend
+- Spring Boot
+- Java
 
-### Tools
-- Visual Studio Code
-- Draw.io
-- StarUML
-- Git & GitHub
+### Development & Modeling Tools
 
----
-
-## Business Analysis Artifacts
-
-- Interview Plan & Interview Report
-- Functional Requirements
-- Non-functional Requirements
-- Use Case Specifications
-- BPMN Diagrams
-- Use Case Diagrams
-- Activity Diagrams
-- Sequence Diagrams
-- Entity Relationship Diagram (ERD)
-- Data Dictionary
-- User Interface Specifications
+* Visual Studio Code
+* Draw.io
+* StarUML
+* Git
+* GitHub
 
 ---
 
-## Team Members
+## 📚 Learning Outcomes
 
-- Le Dao Anh Thu
-- To Tran Nha Uyen
-- Tran Nam Phong
-- Nguyen Thanh Thang
+Through this project, the team gained practical experience in:
+
+* Requirements Elicitation & Analysis
+* Business Process Modeling
+* UML Modeling
+* Database Design
+* System Analysis & Design
+* Team Collaboration
+* Software Development Life Cycle (SDLC)
 
 ---
 
-## Learning Outcomes
+## 👨‍💻 Team Members
 
-- Requirements Analysis
-- Business Process Modeling
-- UML Modeling
-- Database Design
-- System Analysis and Design
-- Team Collaboration
-- Software Development Lifecycle (SDLC)
+* Le Dao Anh Thu
+* To Tran Nha Uyen
+* Tran Nam Phong
+* Nguyen Thanh Thang
